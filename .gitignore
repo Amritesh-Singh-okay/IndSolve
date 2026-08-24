@@ -1,0 +1,27 @@
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Local guides and developer notes (kept on your computer, ignored by Git)
+CODEBASE_GUIDE.*
+local_notes.*
+.tmp_*
+node_modules/
+dist/
+build/
+*.egg-info/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
